@@ -30,7 +30,7 @@ function timer(){
 }
 
 
-
+// start stop reset function
 
 function start(){
     if(interval) return;
