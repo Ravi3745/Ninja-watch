@@ -1,0 +1,57 @@
+body{
+   
+    margin: 0;
+    background-color: rgb(26, 94, 154);
+    position: relative;
+    font-family: sans-serif;
+    /* here linear gradient is added for decreaing opacity of background image */
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./images/JEMA\ BRY\ 1718-01.jpg');
+    background-size:100% 200%;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: rgb(134, 145, 155);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+
+.watch{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.buttons button{
+    
+    margin: 5px;
+    width: 120px;
+    height: 50px;
+    font-size: larger;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    
+}
+
+.buttons button:active{
+    scale: .9;
+}
+
+.buttons button img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
