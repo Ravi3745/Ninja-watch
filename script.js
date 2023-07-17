@@ -29,7 +29,7 @@ function timer(){
 
 }
 
-timer();
+
 
 
 function start(){
